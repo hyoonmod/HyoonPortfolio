@@ -3,12 +3,56 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Hyun's Portfolio</title>
+    <style>
+        .hero {
+            text-align: center;
+            margin-top: 0;
+            padding: 20px;   /* memberi ruang agar tidak terlalu rapat */
+            background-color: #000; /* hitam */
+            color: white;          /* teks jadi putih */
+        }
+        .hero img {
+            display: block;
+            margin: 10px auto;
+        }
+    </style>
 </head>
 <body>
-    <h1>Welcome to Hyun's Portfolio</h1>
-    <img src="img\Hyoon3D_discord.png" alt="Hyun logo"width="100">
-    <h2>Lee Hyun</h2>
-    <p>hi</p>
+    <!-- Hero Section -->
+    <div class="hero">
+        <h1>Welcome to Hyun's Portfolio</h1>
+        <img src="img/Hyoon3D_discord.png" alt="Hyun logo" width="100">
+        <h2>Lee Hyun</h2>
+        <p>Mahasiswa Teknik Informatika Universitas Pelita Harapan.</p>
+    </div>
+
+    <!-- About -->
+    <h2>Tentang Saya</h2>
+    <p>Halo, saya Lee Hyun, seorang mahasiswa Teknik Informatika di UPH. 
+       Saya senang menggabungkan teknologi dengan kreativitas untuk menghasilkan solusi digital yang bermanfaat.</p>
+
+    <!-- Projects -->
+    <h2>Projects</h2>
+    <ul type="circle">
+        <li>
+            <a href="">EcoCity Match</a>
+            <p>Game edukasi berupa visual novel + match-3 puzzle untuk mengenalkan konsep Sustainable Cities & Communities.</p>
+        </li>
+        <li>
+            <a href="">Java Pool Game (8-Ball)</a>
+            <p>Aplikasi game berbasis Java Swing dengan sistem fisika biliar, deteksi kantong bola, dan logika giliran pemain.</p>
+        </li>
+    </ul>
+
+    <!-- Skills -->
+    <h2>Keahlian</h2>
+    <p>Programming Languages:</p>
+    <ul type="Circles">
+        <li>Java</li>
+        <li>C++</li>
+        <li>Kotlin</li>
+        <li>Python</li>
+    </ul>
 </body>
 </html>
