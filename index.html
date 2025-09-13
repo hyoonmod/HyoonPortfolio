@@ -2,48 +2,71 @@
 <html lang="en">
 <head>
     <title>Hyun's Portfolio</title>
+    <link rel="stylesheet" href="style.css">
 </head>
-<body bgcolor="white" text="black">
+<body>
+    <div class="navbar">
+        <div class="home">Home</div>
+        <div class="aboutnav">About</div>
+        <div class="projects">Projects</div>
+        <div class="contact">Contact</div>
+    </div>
 
     <!-- Hero Section -->
-    <center>
-        <h1>Hello!</h1>
-        <p>Welcome to Hyun's portfolio.</p>
-        <img src="img/Hyoon3D_discord.png" alt="Hyun logo" width="200">
+<section class="hero">
+  <div class="herotext">
+    <h1>hyun's<br>portfolio</h1>
+    <br>
+    <p class="sub">
+      Welcome to my portfolio! Here, you can view my projects and skills I have worked on and gained throughout the years.
+    </p>
+  </div>
 
-    </center>
-    <hr>
+  <div class="hero-card">
+    <img src="img/Hyoon3D_discord.png" alt="Hero">
+  </div>
+</section>
+
+<section class="isi">
 
     <!-- About Section -->
-    <center>
-        <h1>About</h1>
-        <p>Halo, saya Lee Hyun, seorang mahasiswa Teknik Informatika.<br>
-           Saya senang menggabungkan teknologi dengan kreativitas untuk menghasilkan solusi digital yang bermanfaat.</p>
-    </center>
-    <hr>
+    <section class="about">
+        <div class = "vertical"></div>
+        <div class="abouttext">
+            <h1>about</h1>
+            <p>Halo, saya Lee Hyun, seorang mahasiswa Teknik Informatika.<br>
+            Saya senang menggabungkan teknologi dengan kreativitas untuk menghasilkan solusi digital yang bermanfaat.</p>
+        </div>
+        <div class = "vertical"></div>
+    </section>
 
     <!-- Portfolio Section -->
-    <center>
-        <h1>Projects</h1>
-        <ul type="circle">
-            <a href="">EcoCity Match</a>
-            <p>EcoCity Match - Game edukasi berupa visual novel + match-3 puzzle untuk mengenalkan konsep Sustainable Cities & Communities.</p>
-            <br>
-            <a href="">Java Pool Game</a>
-            <p>Java Pool Game (8-Ball) - Aplikasi game berbasis Java dengan sistem fisika biliar, deteksi kantong bola, dan logika giliran pemain.</p>
+    <section class="projects">
+        <h1>projects</h1>
+        <ul>
+            <li>
+                <a href="">EcoCity Match</a>
+                <p>EcoCity Match - Game edukasi berupa visual novel + match-3 puzzle untuk mengenalkan konsep Sustainable Cities & Communities.</p>
+            </li>
+            <div class="horizontal"></div>
+            <li>
+                <a href="">Java Pool Game</a>
+                <p>Java Pool Game (8-Ball) - Aplikasi game berbasis Java dengan sistem fisika biliar, deteksi kantong bola, dan logika giliran pemain.</p>
+            </li>
         </ul>
-    </center>
-    <hr>
+    </section>
 
-    <!-- Exhibitions -->
-    <center>
-        <h1>Keahlian</h1>
-        <p>Java</p>
-        <p>C++</p>
-        <p>Python</p>
-        <p>Kotlin</p>
-    </center>
-    <hr>
-    
+    <!-- Skills Section -->
+    <section class="skills">
+        <h1>keahlian</h1>
+        <ul>
+            <li>Java</li>
+            <li>C++</li>
+            <li>Python</li>
+            <li>Kotlin</li>
+        </ul>
+    </section>
+</section>
+
 </body>
 </html>
