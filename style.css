@@ -10,7 +10,7 @@
 }
 
 .navbar a {
-  text-decoration: none;
+  text-decoration: none!important;
   color: black;
   padding: 20px;
 }
